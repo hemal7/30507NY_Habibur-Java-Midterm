@@ -1,19 +1,39 @@
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
 What is a programming language?
-Answer: It is a
+Answer: It is computer language, as we know to communicate with a persson, we need a specific
+ language ,similarly to communicate with computer programmers also need a language is called
+ programing language .
+ Programmers use to develop software programs and scripts.
+ such as JAVA is a programming language.
 
-What is a JDK composed of? Define each components?
-Answer:
+
+What is a JDK composed of? Define each component?
+Answer:The java development kit (JDK) is a software development environment that offers a
+collection of tools and libraries necessary for developing java application.
+The JDK includes the java runtime environment (JRE), an interpreter , a compiler , an archiver (JAR)
+and some other tools.
 
 What is an IDE?
-Answer:
+Answer:An integrated development environment (IDE) is a software application that helps
+programmers develop software code efficiently. it increases developer productivity by combining
+capability such as software editing, building ,testing and packaging in an essy to use application.
 
 What are some of the most popular Java IDEs available in the market?
-Answer:
+Answer:Seven best Java IDEs in 2022
+       IntelliJ IDEA IDE
+       Eclipse.
+       NetBeans.
+       BlueJ.
+       JDeveloper.
+       JCreator.
+       DrJava.
 
 Explain the entire java life cycle.
-Answer:
+Answer: There are three main stages in the life cycle of a java program. They are:
+       1. Editing the program
+       2. Compiling the source code
+       3. Executing the byte code
 
 What is a class?
 Answer:
