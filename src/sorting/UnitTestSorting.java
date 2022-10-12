@@ -10,8 +10,8 @@ public class UnitTestSorting {
 
     public static void main(String[] args) {
         // You will use these arrays to validate whether your sorting algorithm functions as expected
-        int[] unSortedArray = {6, 9, 2, 5, 1, 0, 4};
-        int[] sortedArray = {0, 1, 2, 4, 5, 6, 9};
+        int[] unSortedArray = {6, 9, 2, 5, 1, 0, 4};//  0, 1, 2, 4, 5, 6, 9
+        int[] sortedArray = {0, 1, 2, 4, 5, 6, 9}; // Already sorted. (using Selection Sorting Method)
 
         // Create instance of Sort class
         SortingAlgorithms sorting = new SortingAlgorithms();

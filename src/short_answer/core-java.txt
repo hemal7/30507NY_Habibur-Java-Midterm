@@ -36,43 +36,58 @@ Answer: There are three main stages in the life cycle of a java program. They ar
        3. Executing the byte code
 
 What is a class?
-Answer:
+Answer: class is a  keyword  used to create a class.
 
 What is an object?
-Answer:
+Answer: object is an instance of a class.
 
 What is the entry point of a Java project?
-Answer:
+Answer:The value classname is the name of the class that is application's entry point.
+ Recall that the entry point is a class having a method with signature public static void main(String[] args) .
+ The main method of the class specified in the Main-Class header is executed.
 
 Why is the main() method static?
-Answer:
+Answer:When java runtime starts, there is no object of the class present. That's why the main method
+ has to be static so that JVM can load the class into memory and call the main method. If the main method
+ won't be static,JVM would not be able to call it because there is no object of the class is present
 
 Which class is the superclass of all classes?
-Answer:
+Answer: The Object class, which is stored in the java.
+ The class named Object is the super class of every class in Java.
 
 What is difference between path and classpath variables?
 Answer:
 
 What is the difference between an Interface and Abstract class?
-Answer:
+Answer: An abstract class allows you to create functionality that subclasses can implement or override.
+ An interface only allows you to define functionality, not implement it.
 
 Can you make an Object from an Interface and Abstract class? If yes or no, how would you do it?
 Answer:
 
-What is Access Modifier?
-Answer:
+ What is Access Modifier?
+ Answer: access modifiers are used to set the accessibility  of classes, interfaces, variables,
+    methods, constructors,other data members of java.
 
 What is OOP? Define each OOP concept.
-Answer:
+Answer:Object-oriented programming is a computer programming model that organizes software
+ design, functions and logic. An object can be defined as a data field that has
+  unique attributes and behavior.
 
 What is Java Package and which package is imported by default?
-Answer:
+Answer:lang Package is Java package and compiler imports this package internally by default.
+It provides the fundamental classes that are necessary to design a basic Java program.
 
 What is an API? List some API's that you have used so far.
-Answer:
+Answer: API stands for application programming interface.
+ API is a way for two or more computer programs to communicate with each other.
 
 Does java support multiple inheritance? Why or why not?
-Answer:
+Answer:Java doesn't support multiple inheritance.
+ java compiler cannot decide, which display method should inherit. handling the complexity
+ Java doesn't support multiple inheritance.
+
+
 
 What is method overloading? List all of the different ways to overload.
 Answer:
@@ -81,28 +96,44 @@ Explain exceptions in java and how to handle them.
 Answer:
 
 What is static keyword? When and how do we use it?
-Answer:
+Answer:The static keyword in Java is used for memory management mainly. We can apply
+ static keyword with variables,methods, blocks and nested classes.Static methods/attributes
+  can be accessed without creating an object of a class.
 
 What is final keyword? When and how do we use it?
-Answer:
+Answer:The final keyword is a non-access modifier used for classes, attributes and
+ methods, which makes them non-changeable.
 
 Explain the difference between final, finally and finalize?
-Answer:
+Answer:Final is a "Keyword" and "access modifier" in Java.	Finally is a "block" in Java.
+	  Finalize is a "method" in Java.
 
 What is a constructor?
-Answer:
+Answer:A constructor in Java is a special method that is used to initialize objects.
+ The constructor is called when an object of a class is created.
 
 Can we have multiple constructors in a class?
-Answer:
+Answer:There can be multiple constructors in a class. However, the parameter list of the constructors
+ should not be same. This is known as constructor overloading.
 
 If we don't have a constructor declared, what is called during the object creation?
-Answer:
+Answer:If a class does not have any constructor, the Java compiler automatically provides a no-argument
+ constructor, that's called default constructor.
 
 What is "this" keyword in Java? When would we use it?
-Answer:
+Answer: "this" keyword refers to the current object in a method or constructor.
+
+this can also be used to:
+Invoke current class constructor
+Invoke current class method
+Return the current class object
+Pass an argument in the method call
+Pass an argument in the constructor call
+
 
 What is "super" keyword in Java? What are some scenarios we would use it?
-Answer:
+Answer: The super keyword refers to superclass (parent) objects.
+   It is used to call superclass methods, and to access the superclass constructor.
 
 What does JVM stand for?
 Answer:
