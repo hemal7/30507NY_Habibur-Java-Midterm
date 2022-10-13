@@ -80,7 +80,8 @@ public class UnitTestConnectDB {
 //        map.put("Student2", 6319);
 //
 //        ssdb.insertMap("test_insert_map", map);
-//
+//\
+
 //        String query = "SELECT * FROM TEST_INSERT_MAP";
 //        List<List<String>> results = ssdb.executeQueryReadAll(query);
 //
